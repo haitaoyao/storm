@@ -34,7 +34,7 @@
                session-timeout
                15000
                ;;TODO: consider making this configurable
-               (RetryNTimes. 5 1000))]
+               (RetryNTimes. 600 1000))]
        (.. fk
            (getCuratorListenable)
            (addListener
